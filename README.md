@@ -21,6 +21,7 @@ sudo make altinstall
   Make reference to link https://console.cloud.google.com/ for the create GCP account
 
 2. Check your Python verison: 
+
     python -V 
     
     or 
@@ -28,6 +29,7 @@ sudo make altinstall
     python --version
 
 3. Download Cloud SDK which is compatible with OS you are using: MacOS 32bits | MacOS 64bits:
+
     Unzip the downloaded file: 
     
     tar -xvf <path_to_file_Cloud_SDK>
