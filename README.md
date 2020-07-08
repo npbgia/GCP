@@ -1,5 +1,6 @@
-# GCP
-## Installing Python 3.7 on GG Cloud Shell SSH of VM-Instances:
+# GCP - THIS IS THE BUU GIA'S TUTORIALS STEP BY STEP FOR THE CONFIGURATIONS WHEN USING GOOGLE CLOUD PLATFORM 
+
+## TOPIC 1: Installing Python 3.7 on GG Cloud Shell SSH of VM-Instances:
 ### Install requirements
 sudo apt-get install -y build-essential checkinstall libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev zlib1g-dev openssl libffi-dev python3-dev python3-setuptools wget 
 
@@ -14,7 +15,7 @@ cd /tmp/Python37/Python-3.7.0
 ./configure
 sudo make altinstall
 
-## CONNECT to Google Cloud SQL from local client (MacOS):
+## TOPIC 2: Connect to Google Cloud SQL from local client (MacOS):
 ### PHASE 1: Install Cloud SDK
 1 .First of all, kindly make sure you already have the GCP account (account + project for Cloud SDK connect to)
 
