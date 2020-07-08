@@ -54,13 +54,13 @@ sudo make altinstall
    
     gcloud init
 
-  On your screen would have notification to "Login to continue, you must log in. Would you like to log in (Y/n)?" --> press Y . 
+    On your screen would have notification to "Login to continue, you must log in. Would you like to log in (Y/n)?" --> press Y . 
   
-  Note: For the first time you would be redirected to a login page, for the next logins you just need to choose which account that's login before.
+    Note: For the first time you would be redirected to a login page, for the next logins you just need to choose which account that's login before.
   
-  b, Termial will display the list of project for your choice, please input the number of project and press enter
+    b, Termial will display the list of project for your choice, please input the number of project and press enter
   
-  If it is ok, terminal makes notification: "Your Google Cloud SDK is configured and ready to use!"
+    If it is ok, terminal makes notification: "Your Google Cloud SDK is configured and ready to use!"
 
 2. Installing Cloud SQL Proxy (Mac 64-bit):
 
