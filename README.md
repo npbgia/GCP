@@ -96,4 +96,10 @@ sudo make altinstall
   
 5. Check the connect by tools (SQLPRO Studio, Navicat, pgAdmin,...)
 
+    Or if you want to use psql command to interact with Cloud SQL (Postgres), on terminal you could use command below:
+    
+    psql "sslmode=disable host=/cloudsql/<_connectionName_> user=<_username_>"
+    
+    --> Enter password of user to login, now you can use psql commandline to work with Cloud SQL instance database postgres
+
   
