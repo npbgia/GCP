@@ -90,7 +90,7 @@ sudo make altinstall
     
 4. Connect with Cloud SQL database (Postgres) from Client Local Host:
 
-    ./cloud_sql_proxy -instances=<connectionName>=tcp:3306 
+    ./cloud_sql_proxy -instances=<_connectionName_>=tcp:3306 
   
     --> CONGRATULATION, you now already have a database at local host (Client) that connected to database (Postgres) on the Cloud SQL.
   
