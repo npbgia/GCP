@@ -55,11 +55,12 @@ class gcs_working():
 
         bucket = storage_client.get_bucket(BUCKET_NAME)
 
-        client = bigquery.Client.from_service_account_json(self.auth_json_file)
+        # client = bigquery.Client.from_service_account_json(self.auth_json_file)
+        #
+        # job_config = bigquery.LoadJobConfig(source_format=bigquery.SourceFormat.AVRO,
+        #                                     write_disposition=bigquery.WriteDisposition.WRITE_APPEND,
+        #                                     )
 
-        job_config = bigquery.LoadJobConfig(source_format=bigquery.SourceFormat.AVRO,
-                                            write_disposition=bigquery.WriteDisposition.WRITE_APPEND,
-                                            )
         files = os.listdir(local_dir)
 
         #Upload file len bucket
@@ -120,6 +121,7 @@ gcs_working.listfile_gcs_display('my_upload_folder')
 
 # gcs_working.listfile_gcs('my_upload_folder')
 
+"""Import file from GCS to GGBQ Eg: area-20201008T121159272.avro"""
 today = datetime.today().strftime('%Y%m%d')
 yesterday = datetime.today() - timedelta(days=1)
 yesterday_reformat = yesterday.strftime('%Y%m%d')
